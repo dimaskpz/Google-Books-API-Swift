@@ -19,7 +19,7 @@ class BookViewController: UIViewController, UITextFieldDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
         searchTextField.delegate = self
-        searchTextField.text = "harry%20potter"
+        searchTextField.text = ""
         bookManager.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: K.cellNibName, bundle: nil), forCellReuseIdentifier: K.cellIdentifier)

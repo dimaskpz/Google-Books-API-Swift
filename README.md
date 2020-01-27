@@ -1,7 +1,7 @@
 # Google-Books-API-Swift
 Google Book API and parsing JSON parsing in swift
 
-img[alt=name_for_alt] {
+img[alt text] {
   width: 70%;
   border: none;
   background: none;
